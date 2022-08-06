@@ -1,5 +1,11 @@
 # typed: strict
 
+require 'active_interaction'
+
+require_relative "../../../say_hello.rb"
+require_relative "../../../say_hello_caller.rb"
+require_relative "../../../advanced_interaction.rb"
+
 module Tapioca
   module Compilers
     class ActiveInteraction < Tapioca::Dsl::Compiler
